@@ -15,8 +15,6 @@ float inf = 100000; // infinity to be put into beta
 float minf = -100000; // infinity to be put into alpha
 using namespace std;
 
-;
-
 float weights[3][5];
 float boardWeights[11];
 
@@ -27,8 +25,6 @@ int numberOfRings;
 int sequenceLength;
 int currSet;
 int countMoves = 0;
-
-float explore;
 
 //Game Mechanics
 static int ** board;
